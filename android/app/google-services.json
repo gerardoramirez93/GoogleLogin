@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119079338728",
+    "project_id": "servauth-308ab",
+    "storage_bucket": "servauth-308ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119079338728:android:74076eb8781a4048507f5d",
+        "android_client_info": {
+          "package_name": "com.googleloginauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119079338728-riqr5qmbolrp9e50112lba5tr4l0r7v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFfFOFfFWk_gcco69ncSecgNHXvCPpw5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119079338728-hbi6qhijv257t02qf2dqnm492l5mai7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
