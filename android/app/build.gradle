@@ -212,10 +212,10 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('my-upload-key.keystore')
-            storePassword 'googleauth'
-            keyAlias 'my-key-alias'
-            keyPassword 'googleauth'
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
         }
     }
     buildTypes {
