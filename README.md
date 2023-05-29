@@ -12,5 +12,7 @@ ENLACES DE INTERÉS:
 INTEGRANTES:
 
 -Ronald Gerardo Ramírez Guardado RG110604
+
 -Alejandro Ernesto Velasco Crespín VC161941
+
 -Jairo Jubynni Soto Garcia SG080419
