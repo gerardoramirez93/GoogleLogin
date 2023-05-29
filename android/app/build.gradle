@@ -212,10 +212,10 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
-            storePassword 'android'
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
+            storeFile file('my-upload-key.keystore')
+            storePassword 'googleauth'
+            keyAlias 'my-key-alias'
+            keyPassword 'googleauth'
         }
     }
     buildTypes {
@@ -302,6 +302,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
 
 def isNewArchitectureEnabled() {
     // To opt-in for the New Architecture, you can either:
